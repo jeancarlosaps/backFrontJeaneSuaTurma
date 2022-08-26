@@ -10,11 +10,12 @@
 		1F4EDF4628B6852700CB31F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4EDF4528B6852700CB31F8 /* GoogleService-Info.plist */; };
 		3AF8016428B5ABC000768963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8016328B5ABC000768963 /* AppDelegate.swift */; };
 		3AF8016628B5ABC000768963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8016528B5ABC000768963 /* SceneDelegate.swift */; };
-		3AF8016828B5ABC000768963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8016728B5ABC000768963 /* ViewController.swift */; };
 		3AF8016B28B5ABC000768963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8016928B5ABC000768963 /* Main.storyboard */; };
 		3AF8016D28B5ABC100768963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8016C28B5ABC100768963 /* Assets.xcassets */; };
 		3AF8017028B5ABC100768963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8016E28B5ABC100768963 /* LaunchScreen.storyboard */; };
 		5A7B57F7909CCF969A47024A /* Pods_LoginFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89F9F46F8C6881940DC2B456 /* Pods_LoginFirebase.framework */; };
+		814F9E8028B981840098D486 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814F9E7F28B981840098D486 /* LoginViewController.swift */; };
+		814F9E8228B9819F0098D486 /* LoginStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 814F9E8128B9819F0098D486 /* LoginStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +24,12 @@
 		3AF8016028B5ABC000768963 /* LoginFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF8016328B5ABC000768963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3AF8016528B5ABC000768963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3AF8016728B5ABC000768963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3AF8016A28B5ABC000768963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AF8016C28B5ABC100768963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AF8016F28B5ABC100768963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3AF8017128B5ABC100768963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		814F9E7F28B981840098D486 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		814F9E8128B9819F0098D486 /* LoginStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LoginStoryboard.storyboard; sourceTree = "<group>"; };
 		89F9F46F8C6881940DC2B456 /* Pods_LoginFirebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginFirebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8AEECDDA5CAAECBD050E33A /* Pods-LoginFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFirebase.release.xcconfig"; path = "Target Support Files/Pods-LoginFirebase/Pods-LoginFirebase.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,16 +67,33 @@
 		3AF8016228B5ABC000768963 /* LoginFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				814F9E8428B981B60098D486 /* Controllers */,
+				814F9E8328B981A90098D486 /* Views */,
 				3AF8016328B5ABC000768963 /* AppDelegate.swift */,
 				3AF8016528B5ABC000768963 /* SceneDelegate.swift */,
-				3AF8016728B5ABC000768963 /* ViewController.swift */,
-				3AF8016928B5ABC000768963 /* Main.storyboard */,
 				3AF8016C28B5ABC100768963 /* Assets.xcassets */,
-				3AF8016E28B5ABC100768963 /* LaunchScreen.storyboard */,
 				3AF8017128B5ABC100768963 /* Info.plist */,
 				1F4EDF4528B6852700CB31F8 /* GoogleService-Info.plist */,
 			);
 			path = LoginFirebase;
+			sourceTree = "<group>";
+		};
+		814F9E8328B981A90098D486 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3AF8016928B5ABC000768963 /* Main.storyboard */,
+				814F9E8128B9819F0098D486 /* LoginStoryboard.storyboard */,
+				3AF8016E28B5ABC100768963 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		814F9E8428B981B60098D486 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				814F9E7F28B981840098D486 /* LoginViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		BD3EBF4C6762069F06DEC43E /* Frameworks */ = {
@@ -155,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AF8017028B5ABC100768963 /* LaunchScreen.storyboard in Resources */,
+				814F9E8228B9819F0098D486 /* LoginStoryboard.storyboard in Resources */,
 				1F4EDF4628B6852700CB31F8 /* GoogleService-Info.plist in Resources */,
 				3AF8016D28B5ABC100768963 /* Assets.xcassets in Resources */,
 				3AF8016B28B5ABC000768963 /* Main.storyboard in Resources */,
@@ -210,7 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AF8016828B5ABC000768963 /* ViewController.swift in Sources */,
+				814F9E8028B981840098D486 /* LoginViewController.swift in Sources */,
 				3AF8016428B5ABC000768963 /* AppDelegate.swift in Sources */,
 				3AF8016628B5ABC000768963 /* SceneDelegate.swift in Sources */,
 			);
