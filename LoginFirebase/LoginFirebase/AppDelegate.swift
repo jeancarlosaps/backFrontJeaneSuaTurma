@@ -3,7 +3,7 @@
 //  LoginFirebase
 //
 //  Created by Flavio Dobler on 2022-08-23.
-//
+///
 
 import UIKit
 import FirebaseCore
