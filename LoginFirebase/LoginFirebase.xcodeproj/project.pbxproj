@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F4EDF4628B6852700CB31F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1F4EDF4528B6852700CB31F8 /* GoogleService-Info.plist */; };
+		1F6457A728B96C0900F18C20 /* Cadastro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6457A628B96C0900F18C20 /* Cadastro.storyboard */; };
+		1F6457AA28B9940D00F18C20 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F6457A928B9940D00F18C20 /* CadastroViewController.swift */; };
 		3AF8016428B5ABC000768963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8016328B5ABC000768963 /* AppDelegate.swift */; };
 		3AF8016628B5ABC000768963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AF8016528B5ABC000768963 /* SceneDelegate.swift */; };
 		3AF8016B28B5ABC000768963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AF8016928B5ABC000768963 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		1F4EDF4528B6852700CB31F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1F6457A628B96C0900F18C20 /* Cadastro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cadastro.storyboard; sourceTree = "<group>"; };
+		1F6457A928B9940D00F18C20 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		2C439729B471B5C62AADBA44 /* Pods-LoginFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginFirebase.debug.xcconfig"; path = "Target Support Files/Pods-LoginFirebase/Pods-LoginFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		3AF8016028B5ABC000768963 /* LoginFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoginFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AF8016328B5ABC000768963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F6457A828B993B000F18C20 /* Cadastro */ = {
+			isa = PBXGroup;
+			children = (
+				1F6457A628B96C0900F18C20 /* Cadastro.storyboard */,
+				1F6457A928B9940D00F18C20 /* CadastroViewController.swift */,
+			);
+			path = Cadastro;
+			sourceTree = "<group>";
+		};
 		3AF8015728B5ABC000768963 = {
 			isa = PBXGroup;
 			children = (
@@ -69,11 +82,14 @@
 			children = (
 				814F9E8428B981B60098D486 /* Controllers */,
 				814F9E8328B981A90098D486 /* Views */,
+				1F6457A828B993B000F18C20 /* Cadastro */,
 				3AF8016328B5ABC000768963 /* AppDelegate.swift */,
 				3AF8016528B5ABC000768963 /* SceneDelegate.swift */,
 				3AF8016C28B5ABC100768963 /* Assets.xcassets */,
 				3AF8017128B5ABC100768963 /* Info.plist */,
 				1F4EDF4528B6852700CB31F8 /* GoogleService-Info.plist */,
+				3AF8016E28B5ABC100768963 /* LaunchScreen.storyboard */,
+				3AF8016928B5ABC000768963 /* Main.storyboard */,
 			);
 			path = LoginFirebase;
 			sourceTree = "<group>";
@@ -177,6 +193,7 @@
 				814F9E8228B9819F0098D486 /* LoginStoryboard.storyboard in Resources */,
 				1F4EDF4628B6852700CB31F8 /* GoogleService-Info.plist in Resources */,
 				3AF8016D28B5ABC100768963 /* Assets.xcassets in Resources */,
+				1F6457A728B96C0900F18C20 /* Cadastro.storyboard in Resources */,
 				3AF8016B28B5ABC000768963 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +249,7 @@
 			files = (
 				814F9E8028B981840098D486 /* LoginViewController.swift in Sources */,
 				3AF8016428B5ABC000768963 /* AppDelegate.swift in Sources */,
+				1F6457AA28B9940D00F18C20 /* CadastroViewController.swift in Sources */,
 				3AF8016628B5ABC000768963 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
